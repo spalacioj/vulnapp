@@ -1,0 +1,44 @@
+.blog-header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 5px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-title {
+    margin: 0;
+    font-size: 1.4rem; 
+}
+
+.blog-header nav {
+    display: flex;
+}
+
+.blog-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.blog-header nav ul li {
+    margin: 0 10px; 
+}
+
+.blog-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 3px 8px; 
+    transition: all 0.3s ease;
+    font-size: 0.9rem; 
+}
+
+.blog-header nav ul li a:hover {
+    color: #3498db;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}

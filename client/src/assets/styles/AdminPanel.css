@@ -1,0 +1,54 @@
+.users-table {
+    width: 80%;              
+    max-width: 900px;
+    margin: 40px auto;       
+    border-collapse: collapse;
+    background-color: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .users-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .users-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .admin-page h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .admin-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    text-align: center;
+  }
+  
